@@ -199,3 +199,16 @@ a {
 .footer h4 {
     font-size: 20px;
 }
+
+/* Adding media query */
+@media screen and (max-width: 600px) {
+    .header nav ul li {
+        display: flex;
+        align-content: center;
+    }
+    .content {
+        display: flex;
+        align-content: center;
+    }
+    
+}
